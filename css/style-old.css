@@ -1,0 +1,73 @@
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}
+/* #endregion */
+/* #region header */
+.header {
+  padding: 22px 0;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+.image-logo {
+  margin-right: 16px;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: 73px;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.current {
+  font-weight: 600;
+}
+.header-btn-list {
+  display: flex;
+  gap: 21px;
+}
+.header-btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  min-width: 113px;
+  height: 42px;
+  border: none;
+  border-radius: 4px;
+}
+.header-btn-in {
+  color: #173a56;
+  border-color: transparent;
+  border: 1px solid #bcd0e5;
+}
+.header-btn-up {
+  background: #02897a;
+  color: #fff;
+}
+/* #endregion */
+/* #region hero */
